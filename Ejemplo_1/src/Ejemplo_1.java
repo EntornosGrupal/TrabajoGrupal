@@ -9,7 +9,11 @@ public class Ejemplo_1 {
 			
 			Contador= Contador+1;
 			System.out.print(Contador);
+			if (Contador== 5) {
+				System.out.println("El contador ha llegado a 5");
+			}
 		}
 		System.out.print("Hola2");
+		
 	}
 }
